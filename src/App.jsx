@@ -1,12 +1,13 @@
-import { useState } from "react";
-import './App.css'
+import { BrowserRouter } from "react-router-dom";
+import RoutesApp from "./routes";
+
+import "./App.css";
 
 export default function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1>Sistema de Chamados</h1>
-    </div>
+    <BrowserRouter>
+      <RoutesApp />
+    </BrowserRouter>
   )
 }
