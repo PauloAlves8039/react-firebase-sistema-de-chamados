@@ -6,6 +6,10 @@
     --dark-color1: #121212;
     --dark-color2: #181C2E;
     --dark-color3: #000;
+    --gray-color1: #CCC;
+    --gray-color2: #DDD;
+    --success-color1: #83BF02;
+    --success-color2: #5FD204;
 }
 
 *{
