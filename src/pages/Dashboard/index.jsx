@@ -142,7 +142,7 @@ export default function Dashboard(){
                     <th scope="col">Cliente</th>
                     <th scope="col">Assunto</th>
                     <th scope="col">Status</th>
-                    <th scope="col">Cadastrando em</th>
+                    <th scope="col">Data</th>
                     <th scope="col">Ações</th>
                   </tr>
                 </thead>
@@ -158,7 +158,7 @@ export default function Dashboard(){
                           </span>
                         </td>
                         <td data-label="Cadastrado">{item.createdFormat}</td>
-                        <td data-label="#">
+                        <td data-label="AÇÕES">
                           <button className="action" style={{ backgroundColor: "#3583F6" }} onClick={ () => toggleModal(item)}>
                             <FiSearch color="#FFF" size={17} />
                           </button>
